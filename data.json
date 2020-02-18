@@ -1,0 +1,73 @@
+[{
+    "question": "¿Qué cubrimiento garantiza el fondo mutual?",
+    "options": [{
+        "data": "Eventos que afecten la integridad de su vivienda o vehículos.",
+        "value": 0,
+        "id": 0
+      },
+      {
+        "data": "Eventos que afecten su integridad y la de su familia.",
+        "value": 10,
+        "id": 1
+      },
+      {
+        "data": "Eventos que afecten la integridad de su familia.",
+        "value": 5,
+        "id": 2
+      },
+      {
+        "data": "Eventos que afecten su integridad.",
+        "value": 5,
+        "id": 3
+      }
+    ]
+  },
+  {
+    "question": "¿Qué productos ofrece el Fondo de Solidaridad?",
+    "options": [{
+        "data": "...solo el plan Plan básico de especial.",
+        "value": 5,
+        "id": 0
+      },
+      {
+        "data": "Plan solvencia",
+        "value": 0,
+        "id": 1
+      },
+      {
+        "data": "Plan básico de protección y Plan básico de especial.",
+        "value": 10,
+        "id": 2
+      },
+      {
+        "data": "Plan básico de protección,  Plan básico de especial y Plan solvencia.",
+        "value": 5,
+        "id": 3
+      }
+    ]
+  },
+  {
+    "question": "¿Cuáles son los Amparos de protección que cubre el plan básico?",
+    "options": [{
+        "data": "Muerte Accidental y Incapacidad permanente solo al asociado.",
+        "value": 0,
+        "id": 0
+      },
+      {
+        "data": "Muerte e Incapacidad Permanente.",
+        "value": 5,
+        "id": 1
+      },
+      {
+        "data": "Muerte Accidental y Gran Invalidez.",
+        "value": 5,
+        "id": 2
+      },
+      {
+        "data": "Muerte, Muerte Accidental, Gran invalidez e Incapacidad permanente parcial.",
+        "value": 10,
+        "id": 3
+      }
+    ]
+  }
+]

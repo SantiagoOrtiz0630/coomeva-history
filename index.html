@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./libs/Toastr/toastr.min.css">
+    <link rel="stylesheet" href="./libs/Animate/animate.css">
+    <link rel="stylesheet" href="./libs/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+    <div class="App swiper-container">
+        <div class="App-wrapper swiper-wrapper">
+            <!-- Slides -->
+            <div class="App-slide swiper-slide">
+
+
+                <div class="App-instruContainer">
+                    <img class="App-instru animated fadeIn" src="./src/img/instru.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="App-slide swiper-slide">
+
+                <div class="App-game">
+
+                    <div class="App-videoCont">
+
+                        <video class="App-video" src="./src/video/0.mp4" preload="auto">
+                            Tu navegador no implementa el elemento <code>video</code>.
+                        </video>
+                        <video class="App-video" src="./src/video/1.mp4" preload="auto">
+                            Tu navegador no implementa el elemento <code>video</code>.
+                        </video>
+                        <video class="App-video" src="./src/video/2.mp4" preload="auto">
+                            Tu navegador no implementa el elemento <code>video</code>.
+                        </video>
+                        <video class="App-lastVideo" src="./src/video/3.mp4" preload="auto">
+                            Tu navegador no implementa el elemento <code>video</code>.
+                        </video>
+
+                        <div class="App-question">
+                            
+                        </div>
+
+                        <div class="App-endVideo">
+                            
+                        </div>
+                    </div>
+
+                    <div class="App-optionsCont">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="App-slide swiper-slide">
+
+                <div class="App-results">
+                
+                    <h4>Aún no has acabado la prueba</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="App-pagination swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="App-button-prev swiper-button-prev"></div>
+        <div class="App-button-next swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="App-scrollbar swiper-scrollbar"></div>
+    </div>
+
+
+</body>
+
+<!--LIBS-->
+<script src="./libs/jQuery/jQuery.min.js"></script>
+<script src="./libs/md5/md5.min.js"></script>
+<script src="./libs/Toastr/toastr.min.js"></script>
+<script src="./libs/swiper/js/swiper.min.js"></script>
+<!--CODE-->
+<script src="./js/main.js"></script>
+
+</html>
